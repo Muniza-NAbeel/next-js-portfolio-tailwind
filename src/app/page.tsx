@@ -129,13 +129,13 @@ const Home = () => {
   </h2>
   <div className="services-container flex flex-col sm:flex-row justify-center items-center sm:gap-8 gap-4">
     
-  <div className="services-box flex-1 bg-[var(--second-bg-color)] p-3 sm:p-4 rounded-2xl text-center border-2 border-[var(--bg-color)] transition duration-500 ease-in-out transform hover:border-[var(--main-color)] hover:scale-105 w-full sm:w-[300px] h-auto">
+  <div className="services-box flex-1 bg-[var(--second-bg-color)] p-1 sm:p-4 rounded-2xl text-center border-2 border-[var(--bg-color)] transition duration-500 ease-in-out transform hover:border-[var(--main-color)] hover:scale-105 w-full sm:w-[300px] h-auto">
 
    <i className="bx bxs-paint text-4xl text-[var(--main-color)] m-0"></i>
    
    <h3 className="text-lg sm:text-xl font-bold">Graphic Design</h3>
    
-   <p className="text-[0.75rem] sm:text-base lg:text-sm xl:text-xs m-2">
+   <p className="text-[0.75rem] sm:text-base lg:text-base xl:text-xs m-2">
       As a passionate graphic designer, I thrive on turning creative concepts into visually striking designs. With a keen eye for detail and a strong understanding of color theory, typography, and composition, I aim to deliver visually compelling work that aligns with the client&apos;s vision while adding a unique creative touch.
    </p>
 
@@ -143,10 +143,10 @@ const Home = () => {
 </div>
 
 
-    <div className="services-box flex-1 bg-[var(--second-bg-color)] p-4 sm:p-6 rounded-2xl text-center border-2 border-[var(--bg-color)] transition duration-500 ease-in-out transform hover:border-[var(--main-color)] hover:scale-105 w-full sm:w-[300px] min-h-[250px]">
+    <div className="services-box flex-1 bg-[var(--second-bg-color)] p-2 sm:p-6 rounded-2xl text-center border-2 border-[var(--bg-color)] transition duration-500 ease-in-out transform hover:border-[var(--main-color)] hover:scale-105 w-full sm:w-[300px] min-h-[250px]">
       <i className="bx bx-code-alt text-4xl text-[var(--main-color)] m-2"></i>
       <h3 className="text-lg sm:text-xl font-bold">Web Development</h3>
-      <p className="text-[0.75rem] sm:text-base lg:text-sm xl:text-xs m-0">
+      <p className="text-[0.75rem] sm:text-base lg:text-base xl:text-xs m-0">
         As a dedicated web developer, I am committed to building responsive and user-friendly websites that enhance the online experience. With expertise in HTML, CSS, and JavaScript, I focus on creating seamless interfaces and ensuring optimal performance across all devices.
       </p>
       <a 
@@ -157,10 +157,10 @@ const Home = () => {
       </a>
     </div>
 
-    <div className="services-box flex-1 bg-[var(--second-bg-color)] p-4 sm:p-6 rounded-2xl text-center border-2 border-[var(--bg-color)] transition duration-500 ease-in-out transform hover:border-[var(--main-color)] hover:scale-105 w-full sm:w-[300px] min-h-[250px]">
+    <div className="services-box flex-1 bg-[var(--second-bg-color)] p-2 sm:p-6 rounded-2xl text-center border-2 border-[var(--bg-color)] transition duration-500 ease-in-out transform hover:border-[var(--main-color)] hover:scale-105 w-full sm:w-[300px] min-h-[250px]">
       <i className="bx bx-bar-chart-alt text-4xl text-[var(--main-color)] m-1"></i>
       <h3 className="text-lg sm:text-xl font-bold">Digital Marketing</h3>
-      <p className="text-[0.75rem] sm:text-base lg:text-sm xl:text-xs m-0">
+      <p className="text-[0.75rem] sm:text-base lg:text-base xl:text-xs m-0">
         Digital marketing is a vital strategy for businesses, It allows brands to connect with their audience in real-time, analyze campaign performance, and drive conversions. With consumers increasingly turning to digital platforms, effective digital marketing is essential for maintaining competitiveness and building customer loyalty.
       </p>    
       <a 
