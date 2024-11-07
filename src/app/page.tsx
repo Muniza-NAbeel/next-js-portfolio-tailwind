@@ -125,7 +125,7 @@ const Home = () => {
 {/* Skills Section */}
 <section className="services py-20" id="services">
   <h2 className="text-3xl sm:text-4xl font-semibold mb-4 text-center">
-    My <span className="text-[var(--main-color)]">Skills</span>
+    My <span className="text-[var(--main-color)] py-20">Skills</span>
   </h2>
   <div className="services-container flex flex-col sm:flex-row justify-center items-center sm:gap-8 gap-4">
     
