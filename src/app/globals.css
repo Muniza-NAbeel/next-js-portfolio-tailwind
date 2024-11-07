@@ -1,27 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-color: #461220;
+  --second-bg-color: #722036;
+  --text-color: #f3d8cc;
+  --main-color: #fcb1a9;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  @apply text-base overflow-x-hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-[var(--bg-color)] text-[var(--text-color)];
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+section {
+  @apply min-h-screen py-40 px-[9%];
 }
